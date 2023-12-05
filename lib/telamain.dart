@@ -71,7 +71,7 @@ class homeState extends State<home> {
           Align(
             alignment: Alignment.topLeft,
             child: Text(
-              "Memoria virtual - paginas",
+              "Memória virtual - páginas",
               style: TextStyle(fontSize: 40),
             ),
           ),
@@ -89,7 +89,8 @@ class homeState extends State<home> {
                     },
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
-                      labelText: 'Sequência de paginas',
+                      labelText: 'Sequência de páginas',
+                      hintText: 'ex: 1 2 3 2 3 4 1'
                     ),
                   ),
                   Container(
@@ -101,7 +102,8 @@ class homeState extends State<home> {
                     },
                     decoration: InputDecoration(
                       border: OutlineInputBorder(),
-                      labelText: 'Número de paginas na memória principal',
+                      labelText: 'Número de páginas na memória principal',
+                      hintText: 'ex: 3'
                     ),
                   ),
                   Container(
