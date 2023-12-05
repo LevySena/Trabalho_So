@@ -141,9 +141,9 @@ class homeState extends State<home> {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       Text(
-                          "FIFO: ${FIFOresult[0]} hits e ${FIFOresult[1]} misses"),
+                          "FIFO: ${FIFOresult[0]} Page hits e ${FIFOresult[1]} Page faults"),
                       Text(
-                          "LRU: ${LRUresult[0]} hits e ${LRUresult[1]} misses"),
+                          "LRU: ${LRUresult[0]} Page hits e ${LRUresult[1]} Page faults"),
                     ],
                   )
                 ],
